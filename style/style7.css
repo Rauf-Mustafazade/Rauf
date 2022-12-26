@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.last_text {
+  width: 321px;
+  height: 170px;
+}
+
+footer {
+  width: 100%;
+}
+footer .footer_top {
+  display: flex;
+  height: 142px;
+  padding: 40px 195px 20px;
+  justify-content: left;
+}
+footer .footer_top ul {
+  display: inline-block;
+  margin-right: 305px;
+}
+footer .footer_top ul h3 {
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.1;
+  text-transform: capitalize;
+}
+footer .footer_top ul li {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.2;
+  color: #737373;
+  margin-top: 10px;
+}
+footer .footer_top button {
+  display: inline-block;
+  width: 236px;
+  height: 52px;
+  background-color: #23A6F0;
+  border: none;
+  border-radius: 6px;
+}
+footer .footer_top button a {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.2;
+  color: #fff;
+  line-height: 10px;
+}
+footer .footer_center {
+  display: flex;
+  padding-left: 195px;
+  height: 270px;
+  background-color: #21263A;
+}
+footer .footer_center ul {
+  display: inline-block;
+  width: 148px;
+  height: 170px;
+  margin-right: 30px;
+  margin-top: 25px;
+}
+footer .footer_center ul h3 {
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 0.1;
+  margin-bottom: 20px;
+  color: #fff;
+}
+footer .footer_center ul li {
+  margin-bottom: 20px;
+}
+footer .footer_center ul li a {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2;
+  color: #fff;
+  text-transform: capitalize;
+  display: inline;
+}
+footer .footer_center ul li i {
+  font-weight: 900;
+  font-size: 14px;
+  color: #fff;
+  margin-right: 10px;
+}
+footer .footer_center ul li p {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2;
+  color: #fff;
+  text-transform: capitalize;
+  display: inline;
+}
+footer .bottom {
+  width: 100%;
+  height: 74px;
+  display: flex;
+  justify-content: left;
+  margin: 0px 195px;
+}
+footer .bottom p {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2;
+  color: #737373;
+  text-transform: capitalize;
+  display: inline;
+  padding-right: 450px;
+  margin-top: 20px;
+}
+footer .bottom a {
+  color: #23A6F0;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+footer .bottom a i {
+  font-size: 25px;
+}/*# sourceMappingURL=style7.css.map */

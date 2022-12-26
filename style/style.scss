@@ -1,0 +1,97 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#bottom {
+    .contakt {
+        display: flex;
+    }
+
+    width: 100%;
+    min-height: 60vh; //vw
+    background-color: #000;
+    color: #fff;
+
+    footer {
+        ul {
+            width: 150px;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 25px;
+
+            h3 {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-weight: 700;
+                margin-bottom: 25px;
+            }
+
+            li {
+                opacity: 0.5;
+                letter-spacing: 1px;
+                margin-top: 10px;
+            }
+        }
+
+        a {
+            color: #fff;
+        }
+    }
+}
+
+.anarzaur {
+    width: 270px;
+
+    margin-top: 20px;
+
+    h3 {
+        opacity: 0.8;
+        text-transform: capitalize;
+        letter-spacing: 1px;
+    }
+
+    form {
+        input[type="email"] {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid #c5b8b8;
+            width: 200px;
+            outline: none;
+            letter-spacing: 1px;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            width: 100%;
+            height: 40px;
+            background: #a06f15;
+            border: none;
+            color: #fff;
+            letter-spacing: 1px;
+            border-radius: 10px;
+            text-transform: uppercase;
+        }
+    }
+}
